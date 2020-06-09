@@ -6,8 +6,8 @@ Developer: ZKApps
 
 ScreenShots of Application
 
-![Alt text](ScreenShots/CoinCounter1.png?raw=true "Title")
-![Alt text](ScreenShots/CoinCounter2.png?raw=true "Title")
+![Alt text](Screenshots/CoinCounter1.PNG?raw=true "Title")
+![Alt text](Screenshots/CoinCounter2.PNG?raw=true "Title")
 
 
 

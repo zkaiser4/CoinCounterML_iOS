@@ -13,6 +13,7 @@
 		AB9B688F2489AEEA00861BDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9B688D2489AEEA00861BDD /* Main.storyboard */; };
 		AB9B68912489AEEE00861BDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB9B68902489AEEE00861BDD /* Assets.xcassets */; };
 		AB9B68942489AEEE00861BDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9B68922489AEEE00861BDD /* LaunchScreen.storyboard */; };
+		AB9B68A5248F061A00861BDD /* CoinDetector.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AB9B68A4248F061A00861BDD /* CoinDetector.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AB9B68902489AEEE00861BDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB9B68932489AEEE00861BDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB9B68952489AEEE00861BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB9B68A4248F061A00861BDD /* CoinDetector.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CoinDetector.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				AB9B68872489AEEA00861BDD /* AppDelegate.swift */,
+				AB9B68A4248F061A00861BDD /* CoinDetector.mlmodel */,
 				AB9B68892489AEEA00861BDD /* SceneDelegate.swift */,
 				AB9B688B2489AEEA00861BDD /* ViewController.swift */,
 				AB9B688D2489AEEA00861BDD /* Main.storyboard */,
@@ -141,6 +144,7 @@
 				AB9B688C2489AEEA00861BDD /* ViewController.swift in Sources */,
 				AB9B68882489AEEA00861BDD /* AppDelegate.swift in Sources */,
 				AB9B688A2489AEEA00861BDD /* SceneDelegate.swift in Sources */,
+				AB9B68A5248F061A00861BDD /* CoinDetector.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -285,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJV9MNUNGF;
 				INFOPLIST_FILE = "Coin Counter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJV9MNUNGF;
 				INFOPLIST_FILE = "Coin Counter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

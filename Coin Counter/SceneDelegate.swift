@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Coin Counter
 //
-//  Created by Zain Kaiser on 6/4/20.
+//  Created by ZKApps on 6/4/20.
 //  Copyright © 2020 ZKApps. All rights reserved.
 //
 
